@@ -1,0 +1,50 @@
+# etl_build/Dockerfile
+FROM python:3.11-slim-bookworm
+
+# System deps. Keep libgomp1 for sentence-transformers; build-essential present for any builds.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential git curl libgomp1 libssl-dev libffi-dev pkg-config ca-certificates \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+
+# Upgrade pip and install wheel/setuptools first to avoid build issues
+RUN python -m pip install --upgrade pip setuptools wheel
+
+# Problems with dependencies in main pip install were corrected by pinning some wheels
+# before the install.  And Huggingface_hub in both places.  Needs more research.
+# install numpy<2 for problems with sentence-transformers
+# install CPU-only torch first
+# pin hugging-face_hub for sentence-transformers==2.2.2.
+RUN pip install --no-cache-dir "numpy<2" \
+ && pip wheel --wheel-dir /wheels --index-url https://download.pytorch.org/whl/cpu "torch" \
+ && pip install --no-cache-dir "huggingface_hub==0.25.2" \
+ && pip install --no-cache-dir \
+    jupyterlab \
+    papermill \
+    ipykernel \
+    pandas \
+    pyarrow \
+    sqlalchemy \
+    requests \
+    openpyxl \
+    scikit-learn \
+    psycopg2-binary \
+    langchain==0.3.25 \
+    langchain-community==0.3.19 \
+    sentence-transformers==2.2.2 \
+    faiss-cpu \
+    huggingface_hub==0.25.2
+    
+# Huggingface_hub v0.26.0 got pulled into the image and broke sentence-transformers
+RUN pip install --no-cache-dir --force-reinstall huggingface_hub==0.25.2
+
+# Remove any preinstalled torchvision first.  We don't assume a GPU and
+# packages may depend on torchvision which requires a GPU
+RUN pip uninstall -y torchvision || true
+
+# Papermill needs a kernel available
+RUN python -m ipykernel install --name py311 --display-name "Python 3.11"
+
+# Make sure these exist even if host volumes are empty
+RUN mkdir -p /workspace/notebooks /workspace/data /workspace/reports

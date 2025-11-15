@@ -1,0 +1,500 @@
+table_name,table_description,column_name,column_description
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_wt,Total weighted population
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_us_above1,Total population in the U.S. (ages 1 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_above5,Total population (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_above15,Total population (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_above16,Total population (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_16_19,Total population (between ages 16 and 19)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_above25,Total population (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_pop_above18,Total civilian population (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_vet_pop_above25,Total civilian population who are veterans (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_own_child_below17,Total own children (ages 17 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_worker_nwfh,Total workers who do not work from home (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_worker_hh,Total workers in households (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civilian_labor,Total population in the civilian labor force (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_employ_pop,Total civilian employed population (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_pop_pov,Total population for whom poverty status is determined
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_noninst_pop_pov,Total civilian noninstitutionalized population for whom poverty status is determined
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_pop_pov,Total civilian population for whom poverty status is determined (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_grandchildren_gp,Total grandchildren under 18 living with grandparent householder
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_hu,Total housing units
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_hh,Total number of households
+sdoh_surveys,AHRQ SDOH Surveys,acs_avg_hh_size,Average household size
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_noninst_pop,Total civilian noninstitutionalized population
+sdoh_surveys,AHRQ SDOH Surveys,acs_tot_civil_vet_pop,Total number of civilian veterans (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_child_disab,Percentage of children with a disability (ages 17 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_disable,Percentage of population with a disability
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonvet_disable_18_64,Percentage of nonveterans with a disability (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_disable_18_64,Percentage of civilian veterans with a disability (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_male,Percentage of population that is male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_female,Percentage of population that is female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_ctz_us_born,"Percentage of population consisting of U.S. citizens born in United States, Puerto Rico, or U.S. Islands"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_ctz_nonus_born,Percentage of population consisting of U.S. citizens born abroad of American parents or naturalized
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_foreign_born,Percentage of population that is foreign-born
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_non_citizen,Percentage of population who are not U.S. citizens
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_ctz_naturalized,Percentage of population consisting of U.S. citizens by naturalization
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_ctz_above18,Percentage of population who are citizens (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonctn_1990,Percentage of population who are not U.S. citizens and entered U.S. before 1990
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonctn_1999,Percentage of population who are not U.S. citizens and entered U.S. between 1990 and 1999
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonctn_2000,Percentage of population who are not U.S. citizens and entered U.S. between 2000 and 2009
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonctn_2010,Percentage of population who are not U.S. citizens and entered U.S. since 2010
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_api_lang,Percentage of population that speaks Asian and Pacific Island languages (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_engl_not_all,Percentage of population that speaks a language other than English that does not speak English at all (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_engl_not_well,Percentage of population that speaks a language other than English that does not speak English well (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_engl_very_well,Percentage of population that speaks a language other than English that speaks English very well (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_engl_well,Percentage of population that speaks a language other than English that speaks English well (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_english,Percentage of population that only speaks English (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_limit_english,Percentage of limited English speaking households
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_oth_eurp,Percentage of population who speak other Indo-European languages (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_oth_lang,Percentage of population who speak other languages (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_spanish,Percentage of population that speaks Spanish (ages 5 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet,Percentage of the civilian population consisting of veterans (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_gulfwar_1990_2001,Percentage of the civilian veteran population that served during the Gulf War period from August 1990 to August 2001 (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_gulfwar_2001,Percentage of the civilian veteran population that served during the Gulf War period from September 2001 or later (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_gulfwar_vietnam,Percentage of the civilian veteran population that served between Gulf War and Vietnam era (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vietnam,Percentage of the civilian veteran population that served in the Vietnam era (ages 18 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_age,Median age of total population
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_age_male,Median age of male population
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_age_female,Median age of female population
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_0_4,Percentage of population between ages 0-4
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_5_9,Percentage of population between ages 5-9
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_10_14,Percentage of population between ages 10-14
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_15_17,Percentage of population between ages 15-17
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_0_17,Percentage of population between ages 0-17
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_18_29,Percentage of population between ages 18-29
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_18_44,Percentage of population between ages 18-44
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_30_44,Percentage of population between ages 30-44
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_45_64,Percentage of population between ages 45-64
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_50_64,Percentage of population between ages 50-64
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_above65,Percentage of population ages 65 and over
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_age_above80,Percentage of population ages 80 and over
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_aian,Percentage of population reporting American Indian and Alaska Native race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_aian_female,Percentage of American Indian and Alaska Native alone population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_aian_male,Percentage of American Indian and Alaska Native alone population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_aian_nonhisp,Percentage of non-Hispanic population reporting American Indian and Alaska Native race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_asian,Percentage of population reporting Asian race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_asian_female,Percentage of Asian alone population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_asian_male,Percentage of Asian alone population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_asian_nonhisp,Percentage of non-Hispanic population reporting Asian race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_black,Percentage of population reporting Black or African American race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_black_female,Percentage of Black or African American alone population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_black_male,Percentage of Black or African American alone population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_black_nonhisp,Percentage of non-Hispanic population reporting Black or African American race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hisp_female,Percentage of Hispanic or Latino population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hisp_male,Percentage of Hispanic or Latino population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hispanic,Percentage of population reporting Hispanic ethnicity
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_mult_race,Percentage of population reporting multiple races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_mult_race_female,Percentage of population reporting two or more races and female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_mult_race_male,Percentage of population reporting two or more races and male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_mult_race_nonhisp,Percentage of non-Hispanic population reporting multiple races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nhpi,Percentage of population reporting Native Hawaiian and Pacific Islander race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nhpi_female,Percentage of Native Hawaiian and other Pacific Islander alone population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nhpi_male,Percentage of Native Hawaiian and other Pacific Islander alone  population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nhpi_nonhisp,Percentage of non-Hispanic population reporting Native Hawaiian and Pacific Islander race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other_female,Percentage of population reporting some other race alone and female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other_male,Percentage of population reporting some other race alone and male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other_nonhisp,Percentage of non-Hispanic population reporting some other race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other_race,Percentage of population reporting some other race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_white,Percentage of population reporting White race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_white_female,Percentage of White non-Hispanic alone population reporting female
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_white_male,Percentage of White non-Hispanic alone population reporting male
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_white_nonhisp,Percentage of non-Hispanic population reporting White race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_white,Percentage of householders who are White alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_black,Percentage of householders who are Black or African American alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_aian,Percentage of householders who are American Indian and Alaska Native alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_asian,Percentage of householders who are Asian alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_nhpi,Percentage of householders who are Native Hawaiian and other Pacific Islander alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_other,Percentage of householders who are some other race alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_householder_mult,Percentage of householders who are two or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_aian_comb,Percentage of population reporting American Indian and Alaska Native alone or in combination with one or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_asian_comb,Percentage of population reporting Asian alone or in combination with one or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_black_comb,Percentage of population reporting Black or African American alone or in combination with one or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nhpi_comb,Percentage of population reporting Native Hawaiian and other Pacific Islander alone or in combination with one or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_white_comb,Percentage of population reporting White alone or in combination with one or more races
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_child_1fam,Percentage of families with children that are single-parent families
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_children_grandparent,Percentage of children living with a grandparent householder (ages 17 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_grandp_resps_no_p,Percentage of children living with grandparent householder whose grandparent is responsible for them: parent not present
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_grandp_resps_p,Percentage of children living with grandparent householder whose grandparent is responsible for them: parent present
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_grandp_no_resps,Percentage of children living with grandparent householder whose grandparent is not responsible for them
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_kid_1prnt,"Percentage of family households with female or male householder, no spouse present"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_no_comp_dev,Percentage of households without a computing device
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_smartphone,Percentage of households with a smartphone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_smartphone_only,Percentage of households with a smartphone with no other type of computing device
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_tablet,Percentage of households with a tablet or other portable wireless computer
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_tablet_only,Percentage of households with a tablet or other portable wireless computer with no other type of computing device
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_pc,Percentage of households with a desktop or laptop
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_pc_only,Percentage of households with a desktop or laptop with no other type of computing device
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_other_comp,Percentage of households with other type of computer
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_other_comp_only,Percentage of households with other type of computer only
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_internet,Percentage of households with any internet subscription
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_internet_no_subs,Percentage of households with internet access without a subscription
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_broadband,"Percentage of households with broadband such as cable, fiber optic or DSL"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_broadband_only,"Percentage of households with broadband such as cable, fiber optic or DSL with no other type of Internet subscription"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_broadband_any,Percentage of households with broadband of any type
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_cellular,Percentage of households with a cellular data plan
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_cellular_only,Percentage of households with a cellular data plan with no other type of internet subscription
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_no_internet,Percentage of households with no internet access
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_sat_internet,Percentage of households with satellite internet service
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_dial_internet_only,Percentage of households with dial up and no other type of internet subscription
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_divorced_f,Percentage of female population divorced or separated (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_divorced_m,Percentage of male population divorced or separated (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_married_sp_ab_f,Percentage of female population now married and spouse absent (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_married_sp_ab_m,Percentage of male population now married and spouse absent (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_married_sp_pr_f,Percentage of female population now married and spouse present (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_married_sp_pr_m,Percentage of male population now married and spouse present (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nvr_married_f,Percentage of female population never married (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nvr_married_m,Percentage of male population never married (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_widowed_f,Percentage of female population now widowed (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_widowed_m,Percentage of male population now widowed (ages 15 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pop_same_sex_unmrd_p,Percentage of population with same-sex unmarried partner
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pop_same_sex_spouse,Percentage of population with same-sex spouse
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_admin,Percentage of civilian employed population working in public administration (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_art,"Percentage of employed working in arts, entertainment, recreation, and accommodation and food services (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_construct,Percentage of employed working in construction (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_educ,"Percentage of employed working in educational services, and healthcare and social assistance (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_finance,"Percentage of employed working in finance and insurance, real estate, and rental and leasing (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_govt,Percentage of civilian employed population who are government workers (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_inform,Percentage of employed working in information services (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_manufact,Percentage of employed working in manufacturing (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nature,"Percentage of employed working in agriculture, forestry, fishing and hunting, and mining (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other,"Percentage of employed working in other services, except public administration (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_profess,"Percentage of employed working in professional, scientific, management, administrative, and waste management services (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pvt_nonprofit,Percentage of population who are private not-for-profit wage and salary workers (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pvt_profit,Percentage of population who are private for-profit wage and salary workers (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_retail,Percentage of employed working in retail trade (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_transport,"Percentage of employed working in transportation and warehousing, and in utilities (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_wholesale,Percentage of employed working in wholesale trade (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_work_res_f,Percentage of female population who worked in place of residence (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_work_res_m,Percentage of male population who worked in place of residence (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_employed,Percentage of civilian labor force that is employed (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_unemploy,Percentage of civilian labor force that is unemployed (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_not_labor,Percentage of population not in labor force (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_unempl_18_64,Percentage of civilian veterans that are unemployed (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_labor_force_18_64,Percentage of civilian veterans in labor force (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_armed_forces,Percentage of population in armed forces (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_gini_index,Gini index of income inequality
+sdoh_surveys,AHRQ SDOH Surveys,acs_mdn_grndprnt_no_prnt_inc,"Median income of grandparent householder and/or spouse responsible for grandchildren under 18 and no parent present (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_mdn_grndprnt_inc,"Median income of grandparent householder and/or spouse responsible for grandchildren under 18 (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_aian,"Median household income for households with an American Indian and Alaska Native alone householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_asian,"Median household income for households with an Asian alone householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_black,"Median household income for households with a Black or African American alone householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_hisp,"Median household income for households with a Hispanic or Latino householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_multi,"Median household income for households with a two or more races householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_nhpi,"Median household income for households with a Native Hawaiian and other Pacific Islander alone householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_other,"Median household income for households with a some other race alone householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc_white,"Median household income for households with a White alone, not Hispanic or Latino householder (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_hh_inc,"Median household income (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_inc_f,"Median income of female population (dollars, ages 15 and over with income in the past 12 months, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_inc_m,"Median income of male population (dollars, ages 15 and over with income in the past 12 months, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_nonvet_inc,"Median income of civilian nonveteran population (dollars, ages 18 and over, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_vet_inc,"Median income of civilian veterans (dollars, ages 18 and over, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_inc50_above65,Percentage of population with income to poverty ratio under 0.50 (ages 65 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_inc50_below17,Percentage of children with income to poverty ratio under 0.50  (ages 17 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_health_inc_below137,Percentage of population under 1.37 of the poverty threshold (relevant for health insurance coverage)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_health_inc_138_199,Percentage of population between 1.38 and 1.99 of the poverty threshold (relevant for health insurance coverage)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_health_inc_200_399,Percentage of population between 2.00 and 3.99 of the poverty threshold (relevant for health insurance coverage)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_health_inc_above400,Percentage of population over 4.00 of the poverty threshold (relevant for health insurance coverage)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_10000,"Percentage of population with household income less than $10,000"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_100000,"Percentage of population with household income greater than $100,000"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_14999,"Percentage of population with household income between $10,000 and $14,999"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_24999,"Percentage of population with household income between $15,000 and $24,999"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_49999,"Percentage of population with household income between $25,000 and $49,999"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_inc_99999,"Percentage of population with household income between $50,000 and $99,999"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_inc50,Percentage of population with income to poverty ratio under 0.50
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_nonvet_pov_18_64,Percentage of civilian nonveterans with income below the poverty level in the past 12 months (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_pov_18_64,Percentage of civilian veterans with income below the poverty level in past 12 months (between ages 18 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_person_inc_100_124,Percentage of population with an income to poverty ratio between 1.00 and 1.24
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_person_inc_125_199,Percentage of population with an income to poverty ratio between 1.25 and 1.99
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_person_inc_above200,Percentage of population with an income to poverty ratio of 2.00 or higher
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_person_inc_below99,Percentage of population with an income to poverty ratio under 1.00
+sdoh_surveys,AHRQ SDOH Surveys,acs_per_capita_inc,"Per capita income (dollars, inflation-adjusted to data file year)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_aian,Percentage of American Indian or Alaska Native population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_asian,Percentage of Asian population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_black,Percentage of Black or African American population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_hispanic,Percentage of Hispanic or Latino population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_multi,Percentage of two or more races population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_nhpi,Percentage of Native Hawaiian or Pacific Islander population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_other,Percentage of some other race population below poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pov_white,"Percentage of White, not Hispanic population below poverty level"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_1fam_food_stmp,Percentage of unmarried partner households that received food stamps/SNAP benefits
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_food_stmp,"Percentage of households that received food stamps/SNAP, past 12 months"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_pub_assist,Percentage of households with public assistance income or food stamps/SNAP
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_food_stmp_blw_pov,Percentage of households receiving food stamps/SNAP with income below the poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_no_fd_stmp_blw_pov,Percentage of households not receiving food stamps/SNAP with income below the poverty level
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_college_associate_dgr,Percentage of population with some college or associate's degree (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_bachelor_dgr,Percentage of population with a bachelor's degree (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_no_work_no_schl_16_19,Percentage of teens and adults who are unemployed and not in school (between ages 16 and 19)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_graduate_dgr,Percentage of population with a master's or professional school degree or doctorate (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hs_graduate,Percentage of population with only high school diploma (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_lt_hs,Percentage of population with less than high school education (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_posths_ed,Percentage of population with any postsecondary education (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_bachelor,Percentage of civilian veterans that have a bachelor's degree or higher (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_college,Percentage of civilian veterans that have some college education or an associate's degree (ages 25 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vet_hs,Percentage of civilian veterans who are high school graduates or less than high school graduates (age 25 years and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_home_value,Median home value of owner-occupied housing units (dollars)
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_rent,Median gross rent (dollars)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_1up_rent_1room,Percentage of renter-occupied housing units with more than one occupant per room
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_1up_owner_1room,Percentage of owner-occupied housing units with more than one occupant per room
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_1up_pers_1room,Percentage of housing units with more than one occupant per room
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_1pers,Percentage of households with only one occupant
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_10units,Percentage of housing in structures with 10 or more units
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_grp_qrt,Percentage of persons in institutionalized group quarters
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_mobile_home,Percentage of housing units that are mobile homes
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_owner_hu,Percentage of occupied housing units: owner-occupied
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_owner_hu_child,Percentage of owner-occupied housing units with children
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_renter_hu,Percentage of occupied housing units: rented
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_renter_hu_above65,Percentage of renter-occupied housing units occupied by householders aged 65 and above
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_renter_hu_child,Percentage of renter-occupied housing units with children
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_renter_hu_cost_30pct,Percentage of renter-occupied housing units with rent equal to 30 percent or more of household income
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_renter_hu_cost_50pct,Percentage of renter-occupied housing units with rent equal to 50 percent or more of household income
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_vacant_hu,Percentage of housing units vacant
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_no_fuel,Percentage of occupied housing units without fuel
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_utility_gas,Percentage of occupied housing units with utility gas heating
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_bot_tank_lp_gas,"Percentage of occupied housing units with bottled, tank, or LP gas"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_oil,Percentage of occupied housing units with fuel oil heating
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_wood,Percentage of occupied housing units with wood heating
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_coal,Percentage of occupied housing units with coal or coke heating
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_other,Percentage of occupied housing units with other heating fuel
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_elec,Percentage of occupied housing units with electricity heating
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_solar,Percentage of occupied housing units with solar energy
+sdoh_surveys,AHRQ SDOH Surveys,acs_mdn_owner_cost_mortgage,Median selected monthly owner costs for houses with a mortgage (dollars)
+sdoh_surveys,AHRQ SDOH Surveys,acs_mdn_owner_cost_no_mortg,Median selected monthly owner costs for houses without a mortgage (dollars)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_owner_hu_cost_30pct,Percentage of owner-occupied housing units with selected monthly owner costs equal to 30 percent or more of household income
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_owner_hu_cost_50pct,Percentage of owner-occupied housing units with selected monthly owner costs equal to 50 percent or more of household income
+sdoh_surveys,AHRQ SDOH Surveys,acs_median_year_built,Median year structure built of housing units
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_built_1979,Percentage of housing units built before 1979
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_kitchen,Percentage of housing units lacking complete kitchen facilities
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_plumbing,Percentage of housing units lacking complete plumbing facilities
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_in_state_move,Percentage of population that moved from different county within same state in the past year (age 1 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_in_county_move,Percentage of population that moved within the same county in the past year (age 1 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_dif_state,Percentage of population that moved from different state in the past year (age 1 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_above65,Percentage of households with one or more people 65 years and over
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hh_alone_above65,Percentage of households with a person 65 years and over living alone
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_commt_15min,Percentage of workers with < 15-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_commt_29min,Percentage of workers with 15- to 29-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_commt_59min,Percentage of workers with 30- to 59-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_commt_60minup,Percentage of workers with at least 60-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_hu_no_veh,Percentage of housing units with no vehicle available
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_work_no_car,Percentage of workers in households with no vehicle available (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_drive_2work,"Percentage of workers taking a car, truck, or van to work (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_publ_transit,"Percentage of workers taking public transportation, excluding taxicab (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pub_commt_15min,Percentage of workers who use public transportation with < 15-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pub_commt_29min,Percentage of workers who use public transportation with 15- to 29-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pub_commt_59min,Percentage of workers who use public transportation with 30- to 59-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pub_commt_60minup,Percentage of workers who use public transportation with at least 60-minute commute time (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_taxicab_2work,"Percentage of workers taking taxicab, motorcycle, bicycle, or other means to work (ages 16 and over)"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_walk_2work,Percentage of workers walking to work (ages 16 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_medicaid_any,Percentage of population with any Medicaid/means-tested public health insurance coverage
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_medicaid_any_below64,Percentage of population with any Medicaid/means-tested public health insurance coverage (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_medicare_only,Percentage of population with Medicare only
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_other_ins,Percentage of population with other health insurance coverage combinations
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pvt_empl_drct,Percentage of population with employer-based and direct-purchase coverage
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_pvt_empl_drct_below64,Percentage of population with employer-based and direct-purchase coverage (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_any,Percentage of population with any private health insurance coverage
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_any_below64,Percentage of population with any private health insurance coverage (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_empl,Percentage of population with employer-based health insurance
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_empl_below64,Percentage of population with employer-based health insurance only (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_mdcr,Percentage of population with employer-based and Medicare insurance coverage
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_mdcr_35_64,Percentage of population with direct-purchase and Medicare health insurance (between ages 35 and 64)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_other,Percentage of population with other private-only health insurance combinations
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_other_below64,Percentage of population with other private-only health insurance combinations (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_self,Percentage of population with direct-purchase health insurance only
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_private_self_below64,Percentage of population with direct-purchase health insurance only (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_public_only,"Percentage of population with Medicare, Medicaid, TRICARE/military, U.S. Department of Veterans Affairs (VA) coverage and other public-only health insurance combinations"
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_public_other,Percentage of population with other public-only health insurance combinations
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_public_other_below64,Percentage of population with other public-only health insurance combinations (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_self_mdcr_above35,Percentage of population with direct-purchase and Medicare health insurance (ages 35 and over)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_tricare_va,Percentage of population with TRICARE/military or VA health insurance coverage only
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_tricare_va_below64,Percentage of population with TRICARE/military or VA coverage only (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_uninsured,Percentage of population with no health insurance coverage
+sdoh_surveys,AHRQ SDOH Surveys,acs_pct_uninsured_below64,Percentage of population with no health insurance (ages 64 and below)
+sdoh_surveys,AHRQ SDOH Surveys,amfar_ssp,Total number of syringe exchange programs
+sdoh_surveys,AHRQ SDOH Surveys,amfar_ssp_rate,"Total number of syringe exchange programs per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medsafac,Total number of substance abuse services facilities accepting Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medsafac_rate,"Total number of substance abuse services facilities accepting Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_amatfac,Total number of substance abuse treatment facilities with all three medication assisted treatment services
+sdoh_surveys,AHRQ SDOH Surveys,amfar_amatfac_rate,"Total number of substance abuse treatment facilities with all three medication assisted treatment services per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_hcvtfac,Total number of substance abuse facilities offering hepatitis C screening
+sdoh_surveys,AHRQ SDOH Surveys,amfar_hcvtfac_rate,"Total number of substance abuse facilities offering hepatitis C screening per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_hivhcvtfac,Total number of substance abuse facilities offering both HIV test and hepatitis C screening
+sdoh_surveys,AHRQ SDOH Surveys,amfar_hivhcvtfac_rate,"Total number of substance abuse facilities offering both HIV test and hepatitis C screening per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_hivtfac,Total number of substance abuse facilities offering HIV testing
+sdoh_surveys,AHRQ SDOH Surveys,amfar_hivtfac_rate,"Total number of substance abuse facilities offering HIV testing per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medamatfac,Total number of substance abuse treatment facilities offering all three medication assisted treatment services that accept Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medamatfac_rate,"Total number of substance abuse treatment facilities offering all three medication assisted treatment services that accept Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medhcvtfac,Total number of substance abuse facilities offering hepatitis C screening and accept Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medhcvtfac_rate,"Total number of substance abuse facilities offering hepatitis C screening and accept Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medhivhcvtfac,Total number of substance abuse facilities offering both HIV test and hepatitis C screening and accept Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medhivhcvtfac_rate,"Total number of substance abuse facilities offering both HIV test and hepatitis C screening and accept Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medhivtfac,Total number of substance abuse facilities offering HIV testing and accept Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medhivtfac_rate,"Total number of substance abuse facilities offering HIV testing and accept Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_medmhfac,Total number of facilities that provide mental health services and accept Medicaid
+sdoh_surveys,AHRQ SDOH Surveys,amfar_medmhfac_rate,"Total number of facilities that provide mental health services and accept Medicaid per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,amfar_tot_mhfac,Total number of facilities that provide mental health services
+sdoh_surveys,AHRQ SDOH Surveys,amfar_mhfac_rate,"Total number of facilities that provide mental health services per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_1,Adjacent county 1 FIPS Code (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_2,Adjacent county 2 FIPS Code (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_3,Adjacent county 3 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_4,Adjacent county 4 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_5,Adjacent county 5 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_6,Adjacent county 6 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_7,Adjacent county 7 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_8,Adjacent county 8 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_9,Adjacent county 9 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_10,Adjacent county 10 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_11,Adjacent county 11 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_12,Adjacent county 12 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_13,Adjacent county 13 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,caf_adj_county_14,Adjacent county 14 FIPS Code  (state and county)
+sdoh_surveys,AHRQ SDOH Surveys,cdcw_injury_dth_rate,"Total number of deaths from injury per 100,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,cdcw_transport_dth_rate,"Total number of deaths from transport accidents per 100,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,cdcw_selfharm_dth_rate,"Total number of deaths from intentional self harm per 100,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,cdcw_assault_dth_rate,"Total number of deaths from assault per 100,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,cen_arealand_sqm_county,Land area in square miles
+sdoh_surveys,AHRQ SDOH Surveys,cen_popdensity_county,Population density (County)
+sdoh_surveys,AHRQ SDOH Surveys,chr_tot_mental_prov,Total number of mental health care providers
+sdoh_surveys,AHRQ SDOH Surveys,chr_mental_prov_rate,"Total number of mental health care providers per 100,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,mp_medicare_eligibles,Total number of Medicare eligibles in the county
+sdoh_surveys,AHRQ SDOH Surveys,mp_medicare_advtg_enrolled,Total number of Medicare Advantage enrollees in the county
+sdoh_surveys,AHRQ SDOH Surveys,mp_pct_advtg_pen,Percentage of Medicare eligible beneficiaries enrolled in a Medicare Advantage plan per 100 population
+sdoh_surveys,AHRQ SDOH Surveys,nchs_urcs_2006,NCHS 2006 Rural-Urban Classification Scheme
+sdoh_surveys,AHRQ SDOH Surveys,nchs_urcs_2013,NCHS 2013 Rural-Urban Classification Scheme
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_arsenic_mean_csw,"Mean concentration of arsenic in community water systems (micrograms per liter), by year"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_arsenic_mean_pop,"Mean concentration of arsenic at the population level (micrograms per liter), by year"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_pct_arsenic_mcl_notdetect,Percentage of population in the county served by community water systems with yearly distribution of mean arsenic concentration not detected
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_pct_arsenic_mcl_less10,Percentage of population in the county served by community water systems with yearly distribution of mean arsenic concentration <10
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_pct_arsenic_mcl_greater10,Percentage of population in the county served by community water systems with yearly distribution of mean arsenic concentration >10
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_heatind_90,"Total number of days with daily maximum heat index, absolute threshold: 90°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_heatind_95,"Total number of days with daily maximum heat index, absolute threshold: 95°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_heatind_100,"Total number of days with daily maximum heat index, absolute threshold: 100°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_heatind_105,"Total number of days with daily maximum heat index, absolute threshold: 105°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_maxdrought,Maximum number of consecutive weeks of cumulative moderate drought or worse per year
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_numdrought,Total number of weeks of cumulative moderate drought or worse per year
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_temperature_90,"Total number of days with daily maximum temperature, absolute threshold: 90°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_temperature_95,"Total number of days with daily maximum temperature, absolute threshold: 95°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_temperature_100,"Total number of days with daily maximum temperature, absolute threshold: 100°F"
+sdoh_surveys,AHRQ SDOH Surveys,nephtn_temperature_105,"Total number of days with daily maximum temperature, absolute threshold: 105°F"
+sdoh_surveys,AHRQ SDOH Surveys,nhc_avg_lic_staff,Average hours per day of licensed staff (RN+LPN) per reporting facility
+sdoh_surveys,AHRQ SDOH Surveys,nhc_avg_rep_nurse_staff,Average reported hours per day of total nurse staff (RN+LPN+Aide) per reporting facility
+sdoh_surveys,AHRQ SDOH Surveys,nhc_avg_adj_nurse_staff,Average adjusted hours per day of total nurse staff (RN+LPN+Aide) per reporting facility
+sdoh_surveys,AHRQ SDOH Surveys,nhc_tot_facs,Total number of nursing home facilities
+sdoh_surveys,AHRQ SDOH Surveys,nhc_facs_rate,"Total number of nursing home facilities per 100,000 people"
+sdoh_surveys,AHRQ SDOH Surveys,epaa_2ndmax_co_1hr,2nd highest 1-hour measurement of Carbon Monoxide (CO) in the year (ppm)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_2ndmax_co_8hr,2nd highest non-overlapping 8-hour average of Carbon Monoxide (CO) in the year (ppm)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_98pr_no2_1hr,98th percentile of the daily max 1-hour measurements of Nitrogen Dioxide (NO2) in the year (ppb)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_mean_no2_1hr,Annual mean of all the 1-hour measurements of Nitrogen Dioxide (NO2) in the year (ppb)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_2ndmax_o3_1hr,2nd highest daily max 1-hour measurement of Ozone (O3) in the year (ppm)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_4thmax_o3_8hr,4th highest daily max 8-hour average of Ozone (O3) in the year (ppm)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_max_pb_3mon,Maximum of all rolling 3-month averages of Lead (Pb) in the year (ug/m3)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_2ndmax_pm10_24hr,2nd highest 24-hour average of PM10 in the year
+sdoh_surveys,AHRQ SDOH Surveys,epaa_mean_wtd_pm10,Weighted annual mean (mean weighted by calendar quarter) for the year of PM10 (ug/m3)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_mean_wtd_pm25,Weighted annual mean (mean weighted by calendar quarter) for the year of PM2.5 (ug/m3)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_98pr_pm25_daily,98th percentile of the daily average measurements in the year of PM2.5 (ug/m3)
+sdoh_surveys,AHRQ SDOH Surveys,epaa_99pr_so2_1hr,99th percentile of the daily max 1-hour measurements of Sulfur Dioxide (SO2) in the year
+sdoh_surveys,AHRQ SDOH Surveys,epaa_2ndmax_so2_24hr,2nd highest 24-hour average of Sulfur Dioxide (SO2) in the year
+sdoh_surveys,AHRQ SDOH Surveys,epaa_mean_so2_1hr,Annual mean of all the 1-hour measurements of Sulfur Dioxide (SO2) in the year (ppb)
+sdoh_surveys,AHRQ SDOH Surveys,noaas_property_damage,Estimated amount of damage to property incurred by the storm events during the year (Dollar)
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_deaths_direct,Total number of deaths directly caused by storm events during the year
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_deaths_indirect,Total number of deaths indirectly caused by storm events during the year
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_injuries_direct,Total number of injuries directly caused by storm events during the year
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_injuries_indirect,Total number of injuries indirectly caused by storm events during the year
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_stormevent,Total number of storm events
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_tornado,Total number of tornadoes
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_wind,Total number of wind events
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_hail,Total number of hail events
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_hurricane_storm,Total number of hurricanes and tropical storms
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_flood,Total number of floods
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_wildfire,Total number of wildfires
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_heat_events,Total number of heat events
+sdoh_surveys,AHRQ SDOH Surveys,noaas_tot_drought,Total number of drought
+sdoh_surveys,AHRQ SDOH Surveys,saipe_median_hh_income,Estimated median household income
+sdoh_surveys,AHRQ SDOH Surveys,saipe_pct_pov,Estimated percentage of people of all ages in poverty
+sdoh_surveys,AHRQ SDOH Surveys,saipe_pct_pov_0_17,Estimated percentage of people aged 0-17 in poverty
+sdoh_surveys,AHRQ SDOH Surveys,saipe_pct_pov_5_17,Estimated percentage of related children aged 5-17 in families in poverty
+sdoh_surveys,AHRQ SDOH Surveys,saipe_tot_pov,Estimated number of people of all ages in poverty
+sdoh_surveys,AHRQ SDOH Surveys,saipe_tot_pov_0_17,Estimated number of people aged 0-17 in poverty
+sdoh_surveys,AHRQ SDOH Surveys,saipe_tot_pov_5_17,Estimated number of related children aged 5-17 in families in poverty
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_nursing,Percentage of home health agencies offering nursing care services
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_phys_therapy,Percentage of home health agencies offering physical therapy services
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_occ_therapy,Percentage of home health agencies offering occupational therapy services
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_speech,Percentage of home health agencies offering speech pathology services
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_medical,Percentage of home health agencies offering medical social services
+sdoh_surveys,AHRQ SDOH Surveys,hhc_pct_hha_aide,Percentage of home health agencies offering home health aide services
+sdoh_surveys,AHRQ SDOH Surveys,hifld_median_dist_uc,"Median distance in miles to the nearest urgent care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,hifld_mean_dist_uc,"Mean distance in miles to the nearest urgent care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,hifld_min_dist_uc,"Minimum distance in miles to the nearest urgent care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,hifld_max_dist_uc,"Maximum distance in miles to the nearest urgent care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,hifld_uc,Total number of urgent care organizations
+sdoh_surveys,AHRQ SDOH Surveys,hifld_uc_rate,"Total number of urgent care organizations per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_ed,"Median distance in miles to the nearest emergency department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_ed,"Mean distance in miles to the nearest emergency department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_ed,"Minimum distance in miles to the nearest emergency department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_ed,"Maximum distance in miles to the nearest emergency department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_medsurg_icu,"Median distance in miles to the nearest medical-surgical ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_medsurg_icu,"Mean distance in miles to the nearest medical-surgical ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_medsurg_icu,"Minimum distance in miles to the nearest medical-surgical ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_medsurg_icu,"Maximum distance in miles to the nearest medical-surgical ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_trauma,"Median distance in miles to the nearest designated trauma center, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_trauma,"Mean distance in miles to the nearest designated trauma center, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_trauma,"Minimum distance in miles to the nearest designated trauma center, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_trauma,"Maximum distance in miles to the nearest designated trauma center, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_ped_icu,"Median distance in miles to the nearest pediatric ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_ped_icu,"Mean distance in miles to the nearest pediatric ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_ped_icu,"Minimum distance in miles to the nearest pediatric ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_ped_icu,"Maximum distance in miles to the nearest pediatric ICU, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_obstetrics,"Median distance in miles to the nearest obstetrics department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_obstetrics,"Mean distance in miles to the nearest obstetrics department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_obstetrics,"Minimum distance in miles to the nearest obstetrics department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_obstetrics,"Maximum distance in miles to the nearest obstetrics department, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_clinic,"Median distance in miles to the nearest health clinic (FQHC, RHC), calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_clinic,"Mean distance in miles to the nearest health clinic (FQHC, RHC), calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_clinic,"Minimum distance in miles to the nearest health clinic (FQHC, RHC), calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_clinic,"Maximum distance in miles to the nearest health clinic (FQHC, RHC), calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_median_dist_alc,"Median distance in miles to the nearest hospital with alcohol and drug abuse inpatient care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_mean_dist_alc,"Mean distance in miles to the nearest hospital with alcohol and drug abuse inpatient care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_min_dist_alc,"Minimum distance in miles to the nearest hospital with alcohol and drug abuse inpatient care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_max_dist_alc,"Maximum distance in miles to the nearest hospital with alcohol and drug abuse inpatient care, calculated using population weighted tract centroids in the county"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_fqhc,Total number of Federally Qualified Health Centers (FQHCs)
+sdoh_surveys,AHRQ SDOH Surveys,pos_fqhc_rate,"Total number of Federally Qualified Health Centers (FQHCs) per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_cmhc,Total number of Community Mental Health Centers
+sdoh_surveys,AHRQ SDOH Surveys,pos_cmhc_rate,"Total number of Community Mental Health Centers per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_rhc,Total number of Rural Health Clinics (RHCs)
+sdoh_surveys,AHRQ SDOH Surveys,pos_rhc_rate,"Total number of Rural Health Clinics (RHCs) per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hha,Total number of home health agencies
+sdoh_surveys,AHRQ SDOH Surveys,pos_hha_rate,"Total number of home health agencies per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hospice,Total number of hospices
+sdoh_surveys,AHRQ SDOH Surveys,pos_hospice_rate,"Total number of hospices per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_asc,Total number of ambulatory surgical centers
+sdoh_surveys,AHRQ SDOH Surveys,pos_asc_rate,"Total number of ambulatory surgical centers per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_nf,Total number of nursing facilities
+sdoh_surveys,AHRQ SDOH Surveys,pos_nf_rate,"Total number of nursing facilities per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_nf_beds,Total number of nursing facility certified beds
+sdoh_surveys,AHRQ SDOH Surveys,pos_nf_beds_rate,"Total number of nursing facility certified beds per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_snf,Total number of skilled nursing facilities
+sdoh_surveys,AHRQ SDOH Surveys,pos_snf_rate,"Total number of skilled nursing facilities per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_snf_beds,Total number of skilled nursing facility certified beds
+sdoh_surveys,AHRQ SDOH Surveys,pos_snf_beds_rate,"Total number of skilled nursing facility certified beds per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_obstetric,Total number of hospitals with obstetric care
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_obstetric_rate,"Total number of hospitals with obstetric care per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_ped_icu,Total number of hospitals with pediatric ICU
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_ped_icu_rate,"Total number of hospitals with pediatric ICU per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_burn,Total number of hospitals with burn care
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_burn_rate,"Total number of hospitals with burn care per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_medsurg_icu,Total number of hospitals with medical-surgical ICU
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_medsurg_icu_rate,"Total number of hospitals with medical-surgical ICU per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_rehab,Total number of hospitals with rehabilitative care
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_rehab_rate,"Total number of hospitals with rehabilitative care per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_alc,Total number of hospitals with alcohol and/or drug abuse inpatient care
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_alc_rate,"Total number of hospitals with alcohol and/or drug abuse inpatient care per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_psych,Total number of hospitals with psychiatric care
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_psych_rate,"Total number of hospitals with psychiatric care per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_ambulance,Total number of hospitals with ambulance services
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_ambulance_rate,"Total number of hospitals with ambulance services per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_chemo,Total number of hospitals with chemotherapy
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_chemo_rate,"Total number of hospitals with chemotherapy per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_tot_hosp_ed,Total number of hospitals with emergency department
+sdoh_surveys,AHRQ SDOH Surveys,pos_hosp_ed_rate,"Total number of hospitals with emergency department per 1,000 population"
+sdoh_surveys,AHRQ SDOH Surveys,pos_pct_hosp_for_profit,Percentage of hospitals that are private for-profit hospitals
+sdoh_surveys,AHRQ SDOH Surveys,pos_pct_hosp_non_profit,Percentage of hospitals that are private not-for-profit hospitals
+sdoh_surveys,AHRQ SDOH Surveys,pos_pct_hosp_gov,"Percentage of hospitals that are government (federal, state, local, district) hospitals"
+sdoh_surveys,AHRQ SDOH Surveys,cen_aian_nh_ind,American Indian/Alaska Native areas/Hawaiian home land indicator

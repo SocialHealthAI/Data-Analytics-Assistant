@@ -1,0 +1,9 @@
+NOTICE
+======
+
+This product includes the following third-party components:
+
+- Open StreetMap MCP
+  Source: https://github.com/jagan-shanmugam/open-streetmap-mcp
+  Licensed under the MIT License.
+  (Upstream project contains no explicit copyright notice.)

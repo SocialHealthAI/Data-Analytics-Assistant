@@ -1,0 +1,13 @@
+# db_build/dockerfile
+FROM postgres:16
+
+# Install PL/Python extension and Python scientific packages
+RUN apt-get update && \
+    apt-get install -y \
+    postgresql-plpython3-16 \
+    python3-numpy \
+    python3-scipy \
+    && rm -rf /var/lib/apt/lists/*
+
+# Verify installation
+RUN python3 -c "import scipy; import numpy; print('NumPy version:', numpy.__version__); print('SciPy version:', scipy.__version__)"

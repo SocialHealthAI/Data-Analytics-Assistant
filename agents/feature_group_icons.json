@@ -1,0 +1,42 @@
+{
+  "healthcare": {
+    "icon": "plus-square",
+    "color": "red"
+  },
+  "education": {
+    "icon": "graduation-cap",
+    "color": "green"
+  },
+  "food_access": {
+    "icon": "shopping-basket",
+    "color": "orange"
+  },
+  "economic_stability": {
+    "icon": "money",
+    "color": "darkblue"
+  },
+  "housing": {
+    "icon": "home",
+    "color": "purple"
+  },
+  "transportation": {
+    "icon": "bus",
+    "color": "cadetblue"
+  },
+  "environment": {
+    "icon": "leaf",
+    "color": "darkgreen"
+  },
+  "community": {
+    "icon": "users",
+    "color": "pink"
+  },
+  "safety": {
+    "icon": "shield",
+    "color": "black"
+  },
+  "default": {
+    "icon": "map-marker",
+    "color": "blue"
+  }
+}

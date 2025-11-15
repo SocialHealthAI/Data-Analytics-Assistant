@@ -1,0 +1,16 @@
+FROM python:3.13
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the pyproject.toml file
+COPY osm_mcp_server_build/pyproject.toml .
+
+# Copy the actual source file
+COPY osm_mcp_server.py .
+
+# Install the dependencies using the toml file
+RUN pip install --no-cache-dir .
+
+# Expose the port the server will listen on
+EXPOSE 8080

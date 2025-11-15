@@ -1,0 +1,12 @@
+FROM python:3.11
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy everything from current directory into /app
+COPY . .
+
+# Install dependencies (add more as needed)
+RUN pip install uvicorn fastapi 
+
+CMD ["uvicorn", "mcp_joke_server:mcp_server", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,116 @@
+version: "3.9"
+
+# Named Docker Volume for database
+volumes:
+  postgres-data:
+
+services:
+  da-assistant:
+    image: "${ASSISTANT_IMAGE:-da-assistant:local}"
+    container_name: da-assistant
+    build:
+      context: .
+      dockerfile: analytic_assistant_build/dockerfile.${EMBEDDINGS}
+      args:
+        EMBEDDINGS: ${EMBEDDINGS}  # available at build time
+    # Image name is env-driven. If you set ASSISTANT_IMAGE to a registry image, compose may pull it.
+    volumes:
+      - ./agents/:/myapps:rw
+      - ./dictionary_data:/workspace/data
+    working_dir: /myapps
+    ports:
+      - "${ASSISTANT_BIND:-127.0.0.1}:${ASSISTANT_HOST_PORT:-8052}:${ASSISTANT_CONTAINER_PORT:-8052}"
+    environment:
+      - DB_URI=${DB_URI}
+      - MCP_URI=${MCP_URI}
+      - STREAMLIT_SERVER_ADDRESS=${STREAMLIT_SERVER_ADDRESS:-0.0.0.0}
+      - STREAMLIT_SERVER_PORT=${ASSISTANT_CONTAINER_PORT:-8052}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - TAVILY_API_KEY=${TAVILY_API_KEY}
+      - EMBEDDINGS=${EMBEDDINGS}
+    # command: ["/app/.venv/bin/streamlit", "run", "chat_chart_react.py", "--server.port", "${STREAMLIT_SERVER_PORT}", "--server.address", "${STREAMLIT_SERVER_ADDRESS}"]
+    command: ["/opt/venv/bin/streamlit", "run", "chat_chart_react.py", "--server.port", "${STREAMLIT_SERVER_PORT}", "--server.address", "${STREAMLIT_SERVER_ADDRESS}"]
+    
+    init: true
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    depends_on:
+      - da-assistant-db
+      - da-assistant-osm-mcp
+
+  da-assistant-db:
+    image: "${DB_IMAGE:-da-assistant-db:local}"
+    container_name: da-assistant-db
+    build:
+      context: .
+      dockerfile: db_build/dockerfile
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-myuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mypassword}
+      POSTGRES_DB: ${POSTGRES_DB:-mydb}
+    volumes:
+      - ./db_build/init_db:/docker-entrypoint-initdb.d  # Fixed: use init_db
+      - postgres-data:/var/lib/postgresql/data          # Use named volume
+    expose:
+      - "${DB_CONTAINER_PORT:-5432}"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-myuser} -d ${POSTGRES_DB:-mydb}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # OSM MCP server (internal-only)
+  da-assistant-osm-mcp:
+    image: "${MCP_IMAGE:-da-assistant-osm-mcp:local}"
+    container_name: da-assistant-osm-mcp
+    build:
+      context: .
+      dockerfile: ./osm_mcp_server_build/dockerfile
+    # internal-only: reachable from other services as http://osm-mcp-server:8080
+    expose:
+      - "${MCP_CONTAINER_PORT:-8080}"
+    environment:
+      - MCP_SERVER_PORT=${MCP_CONTAINER_PORT:-8080}
+    command: > 
+      bash -lc "python osm_mcp_server.py ${MCP_CONTAINER_PORT:-8080}"
+    restart: unless-stopped
+
+  # # Headless ETL runner (internal-only)
+  # etl:
+  #   image: ${ETL_IMAGE:-etl-runner:latest}
+  #   build:
+  #     context: .
+  #     dockerfile: ./etl_build/dockerfile
+  #   environment:
+  #     - DB_URI=${DB_URI}
+  #   volumes:
+  #     - ./etl_notebooks:/workspace/notebooks
+  #     - ./dictionary_data:/workspace/data
+  #   depends_on:
+  #     - db
+  #   command: ["bash","-lc","sleep infinity"]
+
+  da-assistant-etl:
+    image: "${ETL_IMAGE:-da-assistant-etl:local}"
+    container_name: da-assistant-etl
+    build:
+      context: .
+      dockerfile: ./etl_build/dockerfile.${EMBEDDINGS}
+    environment:
+      - DB_URI=${DB_URI}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - EMBEDDINGS=${EMBEDDINGS}
+    volumes:
+      - ./etl_notebooks:/workspace/notebooks
+      - ./dictionary_data:/workspace/data
+      - ./agents:/workspace/agents
+    depends_on:
+      da-assistant-db:
+        condition: service_healthy
+    ports:
+      - "${ETL_BIND:-127.0.0.1}:${ETL_HOST_PORT:-8888}:${ETL_CONTAINER_PORT:-8888}"
+    init: true
+    restart: unless-stopped
+    command: >
+      bash -lc "jupyter lab --ip=0.0.0.0 --no-browser --allow-root --ServerApp.token='${JUPYTER_TOKEN:-}' --LabApp.workspaces_dir=/tmp/jlab_ws --ServerApp.log_level=WARN --ServerApp.iopub_msg_rate_limit=100000 --ServerApp.rate_limit_window=3.0"
