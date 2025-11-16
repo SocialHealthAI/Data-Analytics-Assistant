@@ -5,28 +5,30 @@ The **Data Analytics Assistant** is a chat application that helps analysts exp
 ### Quickstart
 To start the assistant with minimal setup:
 
-1. **Install prerequisites:** Docker, Docker Compose, and Git.
+1. **Install prerequisites:** Docker and Git.
 
 2. **Clone this repository:**
 ```
    git clone https://github.com/SocialHealthAI/Data-Analytics-Assistant.git
    cd (path to) Data-Analytics-Asssistant
 ```
-
 3. **Set your keys:** Edit the `.env` file and add your `OPENAI_API_KEY`.
 
 4. **Start the containers:**
 ```
    docker-compose up
 ```
+5. **Load Demo Database**
+```
+http://localhost:8888
+```
+Select ***notebooks/load_database.ipynb** and select "restart the kernel and run all cells". 
 
-5. Open the assistant in your browser:
+6. **Start the Assistant**
 ```
    http://localhost:8052
 ```
-
 For detailed instructions, see [installation.md](./documentation/installation.md).
-
 
 ### Features
 The assistant can support the following data analysis steps:

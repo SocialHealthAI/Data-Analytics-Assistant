@@ -15,11 +15,8 @@ If Docker is not yet installed on your system, follow the official documentation
 
 Once the Git repository is cloned, navigate to the repo directory.
 
-##### Starting the Assistant
-The default setup supplies the database and data dictionary and pulls images from DockerHub.
-
+##### Start Containers
 Set your OpenAI key in the **.env** file:
-
 ~~~
 # Keys
 OPENAI_API_KEY=sk-....
@@ -31,7 +28,20 @@ To build and start the containers:
 ```
 docker-compose up
 ```
-To start an instance of the assistant, see the **Usage** section above.
+
+##### Load Demo Database
+The ETL notebooks are available in JupyterLab:
+```
+http://localhost:8888
+```
+Select ***notebooks/load_database.ipynb** and select "restart the kernel and run all cells".  The notebook downloads, cleans and filters survey data and loads the database.  It also downloads the survey codebook to load the data dictionary.
+
+##### Start Assistant
+Start a new instance of the assistant using:
+```
+http://localhost:8052
+```
+See [usage.md](./documentation/usage.md) for example prompts and considerations.
 
 ##### Tailoring the Configuration
 The **.env** file has parameters that can be adjusted for your configuration.  You must update the OpenAI key but the Tavily key is optional:
