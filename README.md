@@ -106,3 +106,6 @@ See [usage.md](./documentation/usage.md) for example prompts and considerations.
 
 #### Installation
 See [installation.md](./documentation/installation.md) for installation and configuration.
+
+#### What's Next?
+See the issues tagged as enhancements: [Issues · SocialHealthAI/Data-Analytics-Assistant](https://github.com/SocialHealthAI/Data-Analytics-Assistant/issues)
