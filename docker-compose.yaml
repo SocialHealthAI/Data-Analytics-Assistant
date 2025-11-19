@@ -1,8 +1,8 @@
 version: "3.9"
 
 # Named Docker Volume for database
-# volumes:
-#   postgres-data:
+volumes:
+  postgres-data:
 
 services:
   da-assistant:
@@ -51,7 +51,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-mydb}
     volumes:
       - ./db_build/init_db:/docker-entrypoint-initdb.d  # Fixed: use init_db
-      - ./postgres_data:/var/lib/postgresql/data          # Use named volume
+      - postgres-data:/var/lib/postgresql/data          # Use named volume
     expose:
       - "${DB_CONTAINER_PORT:-5432}"
     healthcheck:
