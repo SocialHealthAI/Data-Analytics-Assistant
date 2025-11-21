@@ -18,7 +18,7 @@ class DictionaryLocalTool:
     """
 
     def __init__(self, persist_dir: str = "../../workspace/data", model_name: str = "all-MiniLM-L6-v2",
-                 search_k: int = 6, name: str = "database_column_descriptions", description: str = "Query dictionary of database column descriptions to find tables and columns using natural language",
+                 search_k: int = 6, name: str = "database_column_descriptions", description: str = "Query dictionary of database column descriptions to find tables and columns using natural language descriptions or concepts. Use this first when column names are unknown or described in natural language.",
                  response_format: str = "content_and_artifact"):
         self.persist_dir = str(Path(persist_dir))
         self.search_k = int(search_k)
